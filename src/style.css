@@ -1,0 +1,56 @@
+* {
+	font-family: "Helvetica Neue", Helvetica;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding: 30px;
+}
+
+pre {
+	font-family: "Courier New", Courier, monospace;
+}
+
+form {
+	width: 480px;
+}
+
+iframe {
+	border: 0 none transparent;
+	height: 20px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+button {
+	cursor: pointer;
+	background: #f17647;
+	color: white;
+	border-radius: 10px;
+	border: 2px solid #f17647;
+	margin-top: 20px;
+	font-weight: 500;
+	width: 100%;
+	padding: 12px 20px 14px;
+	line-height: 1em;
+	outline: none;
+	letter-spacing: 0.38px;
+	transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+	background: #fff;
+	color: #3c3c3c;
+}
+
+.response-container {
+	padding-top: 30px;
+	max-width: 480px;
+}
